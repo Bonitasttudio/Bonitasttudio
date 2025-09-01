@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7e8f7;
+}
+
+.galeria img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #d8b0d8;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #fff0f5;
+}
+
+form input, form select, form button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 90%;
+}
+
+.oculto { display: none; }
+
+#citasTabla {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#citasTabla th, #citasTabla td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}

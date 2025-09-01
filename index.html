@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bonita_sttudio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>¡Bienvenidos a Bonita_sttudio!</h1>
+    
+    <div class="galeria">
+        <img src="img/Uñas.jpg" alt="Uñas">
+        <img src="img/Pestañas.jpg" alt="Uñas">
+        <img src="img/Pestañas1.jpg" alt="Pestañas">
+        <img src="img/Uñas1.jpg" alt="Pestañas">
+    </div>
+
+    <form id="reservaForm">
+        <input type="text" id="nombre" placeholder="Nombre completo" required>
+        <input type="tel" id="telefono" placeholder="Teléfono" required>
+        <select id="servicio" required>
+            <option value="">Selecciona un servicio</option>
+            <option value="Uñas - $350">Uñas - $350</option>
+            <option value="Pestañas - $500">Pestañas - $500</option>
+            <option value="Manicure - $250">Manicure - $250</option>
+            <option value="Pedicure - $250">Pedicure - $250</option>
+        </select>
+        <input type="date" id="fecha" required>
+        <select id="hora" required></select>
+        <p id="anticipo">💰 Anticipo: $0</p>
+        <button type="submit">Reservar por WhatsApp</button>
+    </form>
+
+    <button id="adminBtn">Administrador</button>
+    <button id="compartirBtn">Compartir Página</button>
+
+    <div id="adminPanel" class="oculto">
+        <h2>Citas Registradas</h2>
+        <table id="citasTabla"></table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
