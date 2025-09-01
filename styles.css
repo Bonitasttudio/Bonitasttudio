@@ -4,11 +4,15 @@ body {
     background-color: #f7e8f7;
 }
 
-.galeria img {
-    width: 200px;
-    margin: 10px;
-    border-radius: 10px;
+
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover; /* mantiene la proporción sin deformar */
+  border-radius: 10px; /* opcional, esquinas redondeadas */
 }
+
+
 
 form {
     margin: 20px auto;
